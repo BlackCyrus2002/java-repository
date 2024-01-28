@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Become a customer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body style="background-image: url('../image fond réunion.jpg')">
+  <div class="container-fluid" style="margin-bottom: 50px;padding-left: 1px;padding-right: 3px;">
+    <div style="background: url('../32345635.gif');display: flex;background-position: center;">
+      <div style="width: 1300px;margin-left: 5px;" class="btn-group">
+        <button type="button" class="btn btn-default"><a href="#" style="text-decoration: none;color:black">Private bank</a></button>
+        <button type="button" class="btn btn-default"><a href="#" style="text-decoration: none;color:black">Professionals</a></button>
+        <button type="button" class="btn btn-default"><a href="#" style="text-decoration: none;color:black">Companies</a></button>
+      </div>
+      <div style="float: right;display: flex;" >
+        <div style="width: 120px">
+          <button type="button" class="btn btn-default"><a href="#" style="text-decoration: none;color:black">Accessibility</a></button>
+        </div>
+        <div class="dropdown">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Language <span class="caret"></span></button>
+            <ol class="dropdown-menu" >
+              <li><a href="../Devenir_client.html">FR</a></li>
+              <li><a href="Devenir_client.html">ANG</a></li>
+              <li><a href="../ESP/Devenir_client.html">ESP</a></li>
+              <li><a href="../ALL/Devenir_client.html">ALL</a></li>
+            </ol>
+        </div>
+      </div>
+    </div>
+    <div style="border: 1px solid brown;border-radius: 10px;padding: 0 70px 20px 70px;max-width: 700px;margin: 0 auto;color: rgb(146, 77, 77);
+              margin-top: 50px;font-size: x-large;">
+      <center><h1 style="font-weight: bold">Fill in all fields<br/> please:</h1></center>
+      <form class="form-group" action="Oracle banque.html" method="post">
+        <div>
+          <label for="nom">Name :<span style="color: red">*</span><br></label>
+              <input type="text" id="nom" name="nom" placeholder="family name" class="form-control" required>
+        </div><br>
+        <div>
+          <label for="nom">First Name :<span style="color: red">*</span><br></label>
+              <input type="text" id="nom" name="nom" placeholder="First Name" class="form-control" required>
+        </div><br>
+        <div>
+          <label for="date">Date of Birth :<span style="color: red">*</span><br></label>
+              <input type="date" id="date" name="date" placeholder="24/01/2002" class="form-control" required>
+        </div><br>
+        <div>
+          <label for="email">e-mail address :<span style="color: red">*</span><br></label>
+              <input type="email" id="email" name="email" placeholder="myadress@gmail.com" class="form-control" required>
+        </div><br>
+        <div>
+          <label for="password">password :<span style="color: red">*</span><br></label>
+              <input type="password" id="password" name="password" placeholder="password" class="form-control" minlength="8" required>
+        </div><br>
+        <div>
+          <label for="numero">Number :<span style="color: red">*</span><br></label>
+              <input type="tel" id="numero" name="numero" placeholder="+2250102030405" class="form-control" minlength="10" required>
+        </div><br>
+        <div style="display: flex">
+          <div style="width: 400px;display: flex;">
+            <div style="margin-top: 35px"><label for="name"><input type="checkbox" name="nom" id="name" required/></div>
+            <div style="margin-left: 10px"><span style="font-size: 17px">If you agree that Oracle<br>
+              save your information,<br><strong> click here.</strong></span></label></div>
+          </div>
+          <div style="float: right;margin-top: 35px;">
+            <a href="Oracle banque.html"><button type="submit" class="btn btn-primary"><strong> Send</strong></button></a>
+          </div>
+        </div>
+      </form>
+      <div>
+        <center><p style="font-size: 20px">If you already have an account, click <strong>Connect</strong> :</p></center>
+      </div>
+      <div>
+        <center><a href="Creer_Compte .html" ><button class="btn btn-danger"><strong> Connect</strong></button> </a></center>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

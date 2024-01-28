@@ -1,0 +1,81 @@
+.banque{
+    font-family: 'ABC', Arial, Helvetica, serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: rgb(168, 0, 184);
+    text-shadow: 3px 3px 3px blueviolet;
+}
+@font-face{
+    font-family: 'ABC';
+    src: url('ABC.ttf') format('truetype');
+}
+.table{
+    width: 20%;
+    margin-top: 1px;
+    height: 100px;
+    
+    
+}
+@font-face{
+    font-family: 'ABC';
+    src: url('../ABC.ttf') format('truetype');
+}
+h1{
+    font-family: 'ABC', Arial, Helvetica, serif;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+#conteneur
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.element{
+      
+    border: 1px solid black;
+    margin: 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    transition: 0.5s;
+}
+.element:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+    
+}
+.element:nth-child(1)
+{
+    background-color: orange;
+}
+.element:nth-child(2)
+{
+    background-color: blue;
+}
+.element:nth-child(3)
+{
+    background-color: rgb(255, 47, 193);
+}
+.element:nth-child(4)
+{
+    background-color: rgb(255, 47, 47);
+}
+.element:nth-child(5)
+{
+    background-color: rgb(12, 107, 0);
+}
+.element:nth-child(6)
+{
+    background-color: rgb(47, 255, 227);
+}
+p{
+    font-weight: bold;
+}

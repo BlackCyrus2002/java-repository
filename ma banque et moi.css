@@ -1,0 +1,82 @@
+body{
+    background: url('leght.jpg')fixed,url("leght.jpg") fixed no-repeat top right;
+    margin-left: 0cm;
+    margin-right: 0cm;
+
+}
+.espace:hover{
+    color: rgb(241, 238, 238);
+    margin-left: 0px;
+    background-color: blueviolet;
+}
+.banque{
+    font-family: 'ABC', Arial, Helvetica, serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: rgb(168, 0, 184);
+    text-shadow: 3px 3px 3px blueviolet;
+}
+.acceder{
+    border-radius: 20px;
+    color: rgb(216, 219, 219);
+    background-color: rgb(44, 44, 44);
+}
+.client{
+    border-radius: 20px;
+    background-color:rgb(109, 108, 108);
+}
+@font-face{
+    font-family: 'ABC';
+    src: url('ABC.ttf') format('truetype');
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.rechercher{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.table{
+    width: 20%;
+    margin-top: 1px;
+    height: 100px;
+    
+    
+}
+.tableau_1{
+    background-color: rgb(140, 91, 146); 
+    color: white;
+    border-right: 0px;
+    margin-left: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.bordure{
+    color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    padding: 4px;
+    transition: 0.5s;
+    word-wrap: break-word;
+}
+.bordure:hover{
+    
+    background-color: blueviolet;
+    transform: scale(1.2);
+    
+}
+hr{
+    width: 120px;
+}
+.salut{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

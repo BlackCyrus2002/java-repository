@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'ABC';
+    src: url('ABC.ttf') format('truetype');
+}
+.banque{
+    font-family: 'ABC', Arial, Helvetica, serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: rgb(168, 0, 184);
+    text-shadow: 3px 3px 3px blueviolet;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
